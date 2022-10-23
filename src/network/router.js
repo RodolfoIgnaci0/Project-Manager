@@ -1,6 +1,6 @@
-const { userRouter, response } = require('./routes')
+const { userRouter, taskRouter, response } = require('./routes')
 const httpErrors = require('http-errors')
-const routers = [userRouter]
+const routers = [userRouter, taskRouter]
 
 /**
  * @param {import('express').Express} app
